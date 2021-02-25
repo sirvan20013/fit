@@ -27,8 +27,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        frameLayout = findViewById(R.id.frame_layout_main);
+8484        frameLayout = findViewById(R.id.frame_layout_main);
         bottomNavigationView = findViewById(R.id.nav_main);
         aboutFragment = new AboutFragment();
         moveFragment = new MoveFragment();
